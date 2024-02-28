@@ -1,0 +1,4 @@
+saldo = 950.60
+saque = float(input("Digite o valor do saque: "))
+
+print(type(saldo),"\n",type(saque),"\n","Saldo: R$",saldo - saque)
